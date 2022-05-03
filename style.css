@@ -95,3 +95,10 @@ h1 {
 /* ----------END OF SECTION 1---------- */
 
 /* ----------START OF SECTION 2---------- */
+
+/* resize images to fit and round corners */
+.section-2 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
