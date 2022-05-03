@@ -161,3 +161,18 @@ h1 {
   margin-right: 10%;
 }
 /* ----------END OF SECTION 3---------- */
+
+/* ----------START OF SECTION 4---------- */
+
+.section-4 {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.section-4-container-call-to-action {
+  display: flex;
+  background: #3882f6;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 10px;
+  height: 10rem;
+}
