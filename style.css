@@ -43,8 +43,7 @@ a {
 }
 
 .section-1,
-h1,
-p {
+h1 p {
   color: #f9faf8;
 }
 /* CONTAINER FOR TEXT ONLY */
@@ -59,8 +58,8 @@ h1 {
   flex-basis: 40%;
 }
 
-.section-1-container-text,
-p {
+.section-1-container-text p {
+  color: #e5e7eb;
   font-size: 18px;
   display: flex;
   padding-top: 5px;
@@ -92,3 +91,7 @@ p {
   width: 80%;
   height: 85%;
 }
+
+/* ----------END OF SECTION 1---------- */
+
+/* ----------START OF SECTION 2---------- */
