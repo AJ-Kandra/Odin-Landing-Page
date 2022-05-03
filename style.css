@@ -48,13 +48,13 @@ h1,
 p {
   color: #f9faf8;
 }
-
+/* CONTAINER FOR TEXT ONLY */
 .section-1-container-text {
   display: flex;
   flex-direction: column;
   border: 1px solid red;
 }
-
+/* H1 TEXT */
 .section-1-container-text,
 h1 {
   display: flex;
@@ -62,13 +62,22 @@ h1 {
   flex-basis: 40%;
 }
 
+.section-1-container-text,
+p {
+  font-size: 18px;
+  display: flex;
+  border: 1px solid red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* BUTTON */
 .section-1-container-text button {
   background: #3882f6;
   /* removes grey button outline */
   border: none;
   outline: none;
   display: flex;
-  /* border: 1px solid yellow; */
   padding: 0.5rem 2rem;
   width: fit-content;
   border-radius: 12px;
