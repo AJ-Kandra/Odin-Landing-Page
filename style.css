@@ -31,7 +31,6 @@ a {
 .section-1 {
   display: flex;
   background: #1f2937;
-  border: 1px solid red;
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 5%;
@@ -52,13 +51,11 @@ p {
 .section-1-container-text {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
 }
 /* H1 TEXT */
 .section-1-container-text,
 h1 {
   display: flex;
-  border: 1px solid red;
   flex-basis: 40%;
 }
 
@@ -66,9 +63,8 @@ h1 {
 p {
   font-size: 18px;
   display: flex;
-  border: 1px solid red;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 /* BUTTON */
@@ -82,4 +78,17 @@ p {
   width: fit-content;
   border-radius: 12px;
   color: #f9faf8;
+}
+
+/* IMAGE */
+.section-1-container-img {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+}
+
+.section-1-container-img img {
+  display: flex;
+  width: 80%;
+  height: 85%;
 }
