@@ -35,6 +35,7 @@ a {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .section-1 h1 {
@@ -52,4 +53,24 @@ p {
   display: flex;
   flex-direction: column;
   border: 1px solid red;
+}
+
+.section-1-container-text,
+h1 {
+  display: flex;
+  border: 1px solid red;
+  flex-basis: 40%;
+}
+
+.section-1-container-text button {
+  background: #3882f6;
+  /* removes grey button outline */
+  border: none;
+  outline: none;
+  display: flex;
+  /* border: 1px solid yellow; */
+  padding: 0.5rem 2rem;
+  width: fit-content;
+  border-radius: 12px;
+  color: #f9faf8;
 }
