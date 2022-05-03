@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   padding-left: 15%;
   padding-right: 15%;
-  padding-top: 10px;
+  padding-top: 1%;
 }
 /* CHANGE LIST & ANCHOR STYLE & PLACEMENT */
 ul,
@@ -30,4 +30,26 @@ a {
 
 .section-1 {
   display: flex;
+  background: #1f2937;
+  border: 1px solid red;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+}
+
+.section-1 h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.section-1,
+h1,
+p {
+  color: #f9faf8;
+}
+
+.section-1-container-text {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
 }
