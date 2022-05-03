@@ -168,11 +168,26 @@ h1 {
   margin-top: 8%;
   margin-bottom: 8%;
 }
-.section-4-container-call-to-action {
+.section-4-container-call-to-action-background {
   display: flex;
   background: #3882f6;
   margin-left: 15%;
   margin-right: 15%;
   border-radius: 10px;
   height: 10rem;
+}
+.call-to-action-container-text {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid yellow;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.call-to-action-container-text h2 {
+  color: #f9faf8;
+}
+
+.call-to-action-container-text p {
+  color: #d8d9da;
 }
