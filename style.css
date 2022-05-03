@@ -15,7 +15,7 @@ header {
   padding-right: 15%;
   padding-top: 10px;
 }
-/* CHANGE LIST & ANCHOR STYLE AND PLACEMENT */
+/* CHANGE LIST & ANCHOR STYLE & PLACEMENT */
 ul,
 a {
   list-style-type: none;
@@ -25,3 +25,9 @@ a {
   gap: 20px;
 }
 /* ----------END OF HEADER---------- */
+
+/* ----------START OF SECTION 1---------- */
+
+.section-1 {
+  display: flex;
+}
