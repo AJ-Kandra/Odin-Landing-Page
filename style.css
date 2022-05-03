@@ -129,3 +129,12 @@ h1 {
 /* ----------END OF SECTION 2---------- */
 
 /* ----------START OF SECTION 3---------- */
+
+.section-3-container {
+  display: flex;
+  border: 1px solid red;
+  background: #e5e7eb;
+  padding-left: 22%;
+  padding-right: 22%;
+  height: 20rem;
+}
